@@ -1,10 +1,76 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&family=Roboto:wght@400;700&display=swap');
+*/
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Medium.woff2') format('woff2'),
+        url('../fonts/Raleway-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Raleway-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Bold.woff2') format('woff2'),
+        url('../fonts/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.woff2') format('woff2'),
+        url('../fonts/Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-SemiBold.woff2') format('woff2'),
+        url('../fonts/Raleway-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body {
-    font: 400 16px/1 Arial, tahoma, verdana, sans-serif;
+    font: 400 19px/1"Raleway", Arial, tahoma, verdana, sans-serif;
 }
 
 a {
@@ -22,7 +88,8 @@ img {
 table {
     border-collapse: collapse;
 }
-
+input {
+    outline: none;
 }
 
 .wrapper {
@@ -30,7 +97,7 @@ table {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1160px;
     padding: 0 15px;
     margin: 0 auto;
 }
